@@ -1,0 +1,72 @@
+================= TEST RESULTS =================
+
+BÀI 1: CHU VI HCN
+TC1: a=5, b=3 → Output: 16 | Expected: 16 | PASS
+TC2: a=1, b=1 → Output: 4 | Expected: 4 | PASS
+TC3: a=0, b=5 → Output: Lỗi | Expected: Lỗi | PASS
+TC4: a=-1, b=3 → Output: Lỗi | Expected: Lỗi | PASS
+TC5: a="abc", b=3 → Output: Lỗi | Expected: Lỗi | PASS
+
+------------------------------------------------
+
+BÀI 2: DIỆN TÍCH HCN
+TC1: a=5, b=3 → Output: 15 | Expected: 15 | PASS
+TC2: a=2, b=4 → Output: 8 | Expected: 8 | PASS
+TC3: a=0, b=5 → Output: Lỗi | Expected: Lỗi | PASS
+TC4: a=-2, b=3 → Output: Lỗi | Expected: Lỗi | PASS
+
+------------------------------------------------
+
+BÀI 3: PHƯƠNG TRÌNH BẬC 2
+TC1: (1,-3,2) → Output: (2,1) | Expected: (2,1) | PASS
+TC2: (1,2,1) → Output: -1 | Expected: -1 | PASS
+TC3: (0,0,1) → Output: Vô nghiệm | Expected: Vô nghiệm | PASS
+TC4: ("x",1,2) → Output: Lỗi | Expected: Lỗi | PASS
+
+------------------------------------------------
+
+BÀI 4: SỐ NGÀY TRONG THÁNG
+TC1: (1,2024) → Output: 31 | Expected: 31 | PASS
+TC2: (2,2024) → Output: 29 | Expected: 29 | PASS
+TC3: (13,2024) → Output: Lỗi | Expected: Lỗi | PASS
+TC4: (0,2024) → Output: Lỗi | Expected: Lỗi | PASS
+
+------------------------------------------------
+
+BÀI 5: SỐ NGUYÊN TỐ
+TC1: n=7 → Output: True | Expected: True | PASS
+TC2: n=11 → Output: True | Expected: True | PASS
+TC3: n=1 → Output: False | Expected: False | PASS
+TC4: n=-5 → Output: False | Expected: False | PASS
+TC5: n="abc" → Output: Lỗi | Expected: Lỗi | PASS
+
+------------------------------------------------
+
+BÀI 6: TỔNG LUÂN PHIÊN
+TC1: n=5 → Output: 3 | Expected: 3 | PASS
+TC2: n=4 → Output: -2 | Expected: -2 | PASS
+TC3: n=0 → Output: Lỗi | Expected: Lỗi | PASS
+TC4: n=-1 → Output: Lỗi | Expected: Lỗi | PASS
+
+------------------------------------------------
+
+BÀI 7: UCLN
+TC1: (12,18) → Output: 6 | Expected: 6 | PASS
+TC2: (8,4) → Output: 4 | Expected: 4 | PASS
+TC3: (0,0) → Output: Lỗi | Expected: Lỗi | PASS
+TC4: ("x",5) → Output: Lỗi | Expected: Lỗi | PASS
+
+------------------------------------------------
+
+BÀI 8: TỔNG GIAI THỪA
+TC1: n=3 → Output: 9 | Expected: 9 | PASS
+TC2: n=4 → Output: 33 | Expected: 33 | PASS
+TC3: n=0 → Output: Lỗi | Expected: Lỗi | PASS
+TC4: n=-2 → Output: Lỗi | Expected: Lỗi | PASS
+
+================================================
+
+KẾT LUẬN:
+- Tất cả test case hợp lệ: PASS
+- Tất cả test case lỗi: PASS
+- Boundary test: PASS
